@@ -1,15 +1,15 @@
 spring:
+  jpa:
+    defer-datasource-initialization: true
   application:
     name: customer-service
   cloud:
     config:
       enabled: true
       uri: http://localhost8081
+      username: root
+      password: s3cr3t
       allowOverride: ~
       overrideNone: ~
     bootstrap:
       enabled: true
-
-  config:
-    import=optional:
-      configserver: http://localhost:8081
