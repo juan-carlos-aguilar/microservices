@@ -36,5 +36,5 @@ logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
 
-spring.cloud.config.enabled: false
-spring.jpa.defer-datasource-initialization: true
+#spring.cloud.config.enabled: false
+#spring.jpa.defer-datasource-initialization: true
