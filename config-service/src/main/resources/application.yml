@@ -17,4 +17,4 @@ spring:
       name: root
       password: s3cr3t
 
-spring.cloud.config.server.git.default-label: main
+#spring.cloud.config.server.git.default-label: main
