@@ -9,7 +9,7 @@ spring:
       server:
         git:
           uri: https://github.com/juan-carlos-aguilar/microservices.git
-          branch: master
+          branch: main
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
