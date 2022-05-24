@@ -10,3 +10,7 @@ spring:
       password: s3cr3t
     bootstrap:
       enabled: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
