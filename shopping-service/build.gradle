@@ -35,6 +35,7 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.0.1.RELEASE'
 	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
     implementation 'javax.validation:validation-api:2.0.1.Final'
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-sleuth-zipkin', version: '3.1.3'
     compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
